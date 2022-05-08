@@ -1,0 +1,44 @@
+body {
+  padding: 18px 42px;
+}
+
+button {
+  border-radius: 5px;
+  font-weight: 500;
+  padding: 4px;
+}
+
+input {
+  border-radius: 5px;
+  padding: 4px;
+}
+
+.timer {
+  display: flex;
+  margin-top: 12px;
+  color: rgb(42, 42, 42);
+}
+.field {
+  width: auto;
+  margin: 0;
+  text-align: center;
+  & ~ .field {
+    margin-left: 8px;
+  }
+}
+
+.field .value {
+  display: block;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 0.85;
+}
+
+.field .label {
+  display: block;
+  margin: 0 auto;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 12px;
+  line-height: 0.9;
+}
